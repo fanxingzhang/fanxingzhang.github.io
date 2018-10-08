@@ -1,0 +1,68 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(coolvetica.ttf);
+}
+
+body {    
+    font-family: Neuton;
+    background-color: #EEEEEE;
+    margin: 0;
+    height: 100%
+}
+.nav-bar{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    background-color: #2e74b5;
+}
+
+.nav-items{
+    position: absolute;
+    right: 40px;
+    align-self: center   
+}
+
+
+.nav-items a{
+    margin-right: 10px;
+    text-decoration : none;
+    color: white;
+    display: inline;
+    align-self: center;
+}
+
+.title-container{
+    color: white;
+}
+
+.title-container p{
+    margin: 0;
+    padding: 0;
+}
+
+.title-container h1{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    align-items: center;    
+    text-align: center; 
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.icon-rows{
+    display: inline
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
